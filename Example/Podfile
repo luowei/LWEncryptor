@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'libLWEncryptor_Example' do
+  pod 'libLWEncryptor', :path => '../'
+
+  target 'libLWEncryptor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
