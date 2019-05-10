@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C1A2525C109A34078FE0010 /* Pods_libLWEncryptor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D406758219CBF00A6ADAE43 /* Pods_libLWEncryptor_Example.framework */; };
-		5320F8B535648EF5D6287570 /* Pods_libLWEncryptor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3761656927F74A6C08F1EFA3 /* Pods_libLWEncryptor_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		242F7D0F152D8ACD9DF5FDAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		242F7D0F152D8ACD9DF5FDAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3761656927F74A6C08F1EFA3 /* Pods_libLWEncryptor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libLWEncryptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D406758219CBF00A6ADAE43 /* Pods_libLWEncryptor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libLWEncryptor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* libLWEncryptor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libLWEncryptor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +59,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7CC58AF68E6EBDD2862186BB /* libLWEncryptor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libLWEncryptor.podspec; path = ../libLWEncryptor.podspec; sourceTree = "<group>"; };
+		7CC58AF68E6EBDD2862186BB /* libLWEncryptor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libLWEncryptor.podspec; path = ../libLWEncryptor.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91EF0E985ECC74DC04D18A5F /* Pods-libLWEncryptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWEncryptor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-libLWEncryptor_Tests/Pods-libLWEncryptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA12E5AB253B72ED5E44FEDD /* Pods-libLWEncryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWEncryptor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-libLWEncryptor_Example/Pods-libLWEncryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CB1BF950ED05D6DA12AD4DEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EC696B6ED3C8B37C2DB87014 /* Pods-libLWEncryptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWEncryptor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libLWEncryptor_Tests/Pods-libLWEncryptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1BF950ED05D6DA12AD4DEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F766B3734BFC8761C74BFD1D /* Pods-libLWEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWEncryptor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libLWEncryptor_Example/Pods-libLWEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5320F8B535648EF5D6287570 /* Pods_libLWEncryptor_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +186,6 @@
 			children = (
 				F766B3734BFC8761C74BFD1D /* Pods-libLWEncryptor_Example.debug.xcconfig */,
 				CA12E5AB253B72ED5E44FEDD /* Pods-libLWEncryptor_Example.release.xcconfig */,
-				EC696B6ED3C8B37C2DB87014 /* Pods-libLWEncryptor_Tests.debug.xcconfig */,
-				91EF0E985ECC74DC04D18A5F /* Pods-libLWEncryptor_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -207,7 +201,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BDB8F76F1393B63E550B06BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "libLWEncryptor_Tests" */;
 			buildPhases = (
-				8C02B0895B0A662E7CF40F94 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -247,7 +239,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = luowei;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G3A2KYKYBU;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = G3A2KYKYBU;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -314,50 +310,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C02B0895B0A662E7CF40F94 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-libLWEncryptor_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BDB8F76F1393B63E550B06BF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-libLWEncryptor_Example/Pods-libLWEncryptor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/libLWEncryptor/libLWEncryptor.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libLWEncryptor.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libLWEncryptor_Example/Pods-libLWEncryptor_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -497,11 +449,12 @@
 			baseConfigurationReference = F766B3734BFC8761C74BFD1D /* Pods-libLWEncryptor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libLWEncryptor/libLWEncryptor-Prefix.pch";
 				INFOPLIST_FILE = "libLWEncryptor/libLWEncryptor-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libLWEncryptor-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -512,11 +465,12 @@
 			baseConfigurationReference = CA12E5AB253B72ED5E44FEDD /* Pods-libLWEncryptor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libLWEncryptor/libLWEncryptor-Prefix.pch";
 				INFOPLIST_FILE = "libLWEncryptor/libLWEncryptor-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libLWEncryptor-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -524,9 +478,9 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC696B6ED3C8B37C2DB87014 /* Pods-libLWEncryptor_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,9 +502,9 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91EF0E985ECC74DC04D18A5F /* Pods-libLWEncryptor_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
