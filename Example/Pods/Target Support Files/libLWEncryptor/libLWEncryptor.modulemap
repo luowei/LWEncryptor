@@ -1,6 +1,0 @@
-framework module libLWEncryptor {
-  umbrella header "libLWEncryptor-umbrella.h"
-
-  export *
-  module * { export * }
-}

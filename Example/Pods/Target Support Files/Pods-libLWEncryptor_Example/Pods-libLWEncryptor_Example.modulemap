@@ -1,6 +1,0 @@
-framework module Pods_libLWEncryptor_Example {
-  umbrella header "Pods-libLWEncryptor_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

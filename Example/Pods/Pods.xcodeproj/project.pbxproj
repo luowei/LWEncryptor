@@ -6,430 +6,487 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01B5D90BD06798604F22A44E32E8F39B /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		06CF00BADCAAAA73F605DACDD7D902CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		0A4C8118CA8A75ECA5CF37BDD3D83491 /* LWEncryptorExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1E602AC00F438A715CF4193294DCBB /* LWEncryptorExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DA8DB7462065B3C38253D2A57ADB019 /* LWRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 317755A0D54BFE19CF2FA0EFDBB960A6 /* LWRSAEncryptor.m */; };
-		3EDEFC2E38C1A7A73A2CE32A3CAE50BB /* Pods-libLWEncryptor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23532E56F2FBFF1E449F6A3240123F02 /* Pods-libLWEncryptor_Example-dummy.m */; };
-		5BF45B8EE7D7DFF83C801226E9126183 /* libLWEncryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B85C3C028440F688EA9B7EFA53A023 /* libLWEncryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F9F00CED6CF88290D6ABBDA0D79588 /* libLWEncryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E815B011BBD452F4BCBF20F8579CE /* libLWEncryptor-dummy.m */; };
-		95F264C054A705226124A60446D27027 /* LWAESEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FACD288C87F22DBD3674837198E1CCA /* LWAESEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A8683E5A5AD0F360AC80ED072D4818B /* LWRSAEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = B94411BCBCD35D5D01F654D2B55BBAE8 /* LWRSAEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D221175697D4561FF36B863D365336E3 /* LWAESEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2811738239C03FA5019E192DE6843E /* LWAESEncryptor.m */; };
-		E085533E102834180368AACAFD8C81C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E5C9B7F1092C3777F9E2360A5460DECD /* Pods-libLWEncryptor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD4B1BB2D715FE8480B4B091FCC6EED /* Pods-libLWEncryptor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBACBF7978A70BF5A65201BA49F85D38 /* LWEncryptorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D910F366389C6BEC3226CB5AC3C7CA5B /* LWEncryptorExtensions.m */; };
+		067BAAC45FA23F270DB706E6EAD43CEF /* LWRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE55FFD33359EFC6CD741EB251B21F57 /* LWRSAEncryptor.m */; };
+		12FEE1E379173F7A81F9FB8B765EF7AF /* LWEncryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40012ACC40BD6563EE63BF3D79B02AC /* LWEncryptor-dummy.m */; };
+		19301F41BAA35AA9C90F98A7F4665290 /* LWEncryptorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C09B831962A309BD46B78CAF0F171850 /* LWEncryptorExtensions.m */; };
+		1E5A3F917B5B9BCAFCCAD6B59D142000 /* LWEncryptorExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FED9258C6F06DF706DEE5F3B6F7CBA99 /* LWEncryptorExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4E6E71B0FD0C19F00B0D8F84E9580A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AE5C11D9E5FD8E988A197236DD15E82B /* LWAESEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2373B539615BC499284137A90A983715 /* LWAESEncryptor.m */; };
+		B04E581BA9922381D105625EC50CD36B /* LWRSAEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A43497BD8EBD1A79EA78620ED861EE4E /* LWRSAEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E5523F63EAFC69CA0273047D7665BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CF01579103FB00A2154F6881B9842D19 /* LWAESEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A3B7556CF7252DABCBAE3D10097628 /* LWAESEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D3E9B84C522BD49E8BC1D5DD90C5AB /* Pods-LWEncryptor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8757BD675AF9FE8AF82DEB5090295621 /* Pods-LWEncryptor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71449D4952BE207B1DA81D5549B6634 /* Pods-LWEncryptor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572C0349AAF4D71235593A2668B5FDBC /* Pods-LWEncryptor_Example-dummy.m */; };
+		F39A81DA36D7DB3C3ECA32C82DA345D3 /* LWEncryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB407512EC1B046A0DECA106E494C0CB /* LWEncryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		964514A57E743733F95AAC1368852BEC /* PBXContainerItemProxy */ = {
+		B249A9F91514C00DCA1B2D23452EDFD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0817CE75441599A252AB578A7A2C7639;
-			remoteInfo = libLWEncryptor;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		B4AF2FB9681EBD5866A5553ED867CEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		F855849018A2DADC8E8AD165C75F6871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC63F6952525D222F4F11E924B03504;
+			remoteInfo = LWEncryptor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021CC44BE8307BB9FCEEEAA9D7210D42 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = "include-ios/openssl/ui_compat.h"; sourceTree = "<group>"; };
-		041DC29B3E1221D536FA6C37162651FF /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = "include-ios/openssl/mdc2.h"; sourceTree = "<group>"; };
-		049EA897DD172A135AFB504A790BEF08 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = "include-ios/openssl/txt_db.h"; sourceTree = "<group>"; };
-		04A6441605BF64DFE3EB7AB1BAA507A7 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = "include-ios/openssl/bio.h"; sourceTree = "<group>"; };
-		0B6630BC948577FB7148C4FB16BA4DE0 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = "include-ios/openssl/dso.h"; sourceTree = "<group>"; };
-		0CAF6C5E07AD77933DEF58FAF600877E /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "include-ios/openssl/des.h"; sourceTree = "<group>"; };
-		0D0C514119C8EC79D72DEFD79406E95A /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = "include-ios/openssl/dh.h"; sourceTree = "<group>"; };
-		0DB50B57347E54C01AE356030B52EA0D /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = "include-ios/openssl/idea.h"; sourceTree = "<group>"; };
-		0E27385A6DF2A7CAA5397DA5C3411758 /* Pods-libLWEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libLWEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1A9673C91610962917A634E2DB516500 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "include-ios/openssl/hmac.h"; sourceTree = "<group>"; };
-		1CE3EEBEE977824427AA4079AB1C0B5A /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = "include-ios/openssl/ssl3.h"; sourceTree = "<group>"; };
-		1E2811738239C03FA5019E192DE6843E /* LWAESEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWAESEncryptor.m; path = libLWEncryptor/Classes/LWAESEncryptor.m; sourceTree = "<group>"; };
-		1E2D58B9307E9227A3407822A4F75DF1 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = "include-ios/openssl/pkcs12.h"; sourceTree = "<group>"; };
-		1E8ED0B9D4D35CD1D1F235926FA329C4 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = "include-ios/openssl/evp.h"; sourceTree = "<group>"; };
-		22F7DD6DD660D072066C106DA4540055 /* Pods-libLWEncryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libLWEncryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		23532E56F2FBFF1E449F6A3240123F02 /* Pods-libLWEncryptor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libLWEncryptor_Example-dummy.m"; sourceTree = "<group>"; };
-		2409FA694145B9E5885CE02C6348CB16 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = "include-ios/openssl/x509v3.h"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		24C13D14CA2D25F72131EE6D10E4D829 /* libLWEncryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libLWEncryptor.framework; path = libLWEncryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		253E8C3C7A17EC5909AF7B15CADD9F67 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = "include-ios/openssl/obj_mac.h"; sourceTree = "<group>"; };
-		27BDEDFA788DB681C8C3C3EB35A8AF45 /* Pods-libLWEncryptor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libLWEncryptor_Example-resources.sh"; sourceTree = "<group>"; };
-		2FC0D40B9EFB5630AB2356CB325B27A2 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "include-ios/openssl/blowfish.h"; sourceTree = "<group>"; };
-		2FC7556D2ADE712D93EBB04BFC5958DB /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = "include-ios/openssl/srtp.h"; sourceTree = "<group>"; };
-		317755A0D54BFE19CF2FA0EFDBB960A6 /* LWRSAEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWRSAEncryptor.m; path = libLWEncryptor/Classes/LWRSAEncryptor.m; sourceTree = "<group>"; };
-		350169BD130F6EE346B83A6120F840CE /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "lib-ios/libcrypto.a"; sourceTree = "<group>"; };
-		3576614B83276AAC7B9B8B644284F008 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = "include-ios/openssl/krb5_asn.h"; sourceTree = "<group>"; };
-		386F38FF4A7A0EB4781206A8C3FC3A3A /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = "include-ios/openssl/cast.h"; sourceTree = "<group>"; };
-		389466F524C077E6078C8D185308C7CC /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = "include-ios/openssl/tls1.h"; sourceTree = "<group>"; };
-		3AFB7FEB2991D09C4B3E0E7FEEB62485 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = "include-ios/openssl/lhash.h"; sourceTree = "<group>"; };
-		3C4F5C0AF3DED777691DE98491667449 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = "include-ios/openssl/rc2.h"; sourceTree = "<group>"; };
-		3D769F733537C5FF849FB669051BE7B1 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "include-ios/openssl/md5.h"; sourceTree = "<group>"; };
-		3FAAFDF963F8F90493D58038E65193C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3FF2D7EF773FC8FBE619DF458601F306 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = "include-ios/openssl/opensslconf.h"; sourceTree = "<group>"; };
-		438DBF7723EA2B72F082E130A807D887 /* libLWEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libLWEncryptor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		462E815B011BBD452F4BCBF20F8579CE /* libLWEncryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libLWEncryptor-dummy.m"; sourceTree = "<group>"; };
-		4959C10936D23D481363FD815E28AF77 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = "include-ios/openssl/x509.h"; sourceTree = "<group>"; };
-		4E882351ABC1866A33E32713C7B2C444 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = "include-ios/openssl/pem2.h"; sourceTree = "<group>"; };
-		4F694AC349161F3B12DB32DCA7B85609 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		508DFE058B45DF16EF78962490D7A2B9 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = "include-ios/openssl/engine.h"; sourceTree = "<group>"; };
-		50DAA6C07A3C8C4672522BD0663A54BC /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = "include-ios/openssl/opensslv.h"; sourceTree = "<group>"; };
-		51F74BC0CC75F9A4182CA76BE80A3383 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "include-ios/openssl/aes.h"; sourceTree = "<group>"; };
-		54CCE856C19FB2A5C89D79EDA72EE0EE /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = "include-ios/openssl/des_old.h"; sourceTree = "<group>"; };
-		55CF8D04656427EDC1C3307C7A44FF99 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "lib-ios/libssl.a"; sourceTree = "<group>"; };
-		5769486815AC1114D5FBA396B1C6A85F /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = "include-ios/openssl/asn1t.h"; sourceTree = "<group>"; };
-		58079607F7C08FA6A33E11E5BABB5794 /* Pods-libLWEncryptor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libLWEncryptor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A246BABE2DF74830A67A4145F42346A /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = "include-ios/openssl/srp.h"; sourceTree = "<group>"; };
-		5C196AB2962A261F883DAD13CDD2A92F /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = "include-ios/openssl/whrlpool.h"; sourceTree = "<group>"; };
-		5CE3310E204511977D7DE7B61C82EBE3 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = "include-ios/openssl/ebcdic.h"; sourceTree = "<group>"; };
-		5F7AF798C42F6D97821D1FB53F79100C /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = "include-ios/openssl/rsa.h"; sourceTree = "<group>"; };
-		61DF760C38FFC308CC79F6DD1F1C80F4 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = "include-ios/openssl/ssl23.h"; sourceTree = "<group>"; };
-		64FAE373938CD640C03CC59D8FEB7C8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69318E90FBDA9FFF0C02E3ECB91DD014 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = "include-ios/openssl/ecdsa.h"; sourceTree = "<group>"; };
-		69A9BC9FC603429FBDA24A8CF3426C97 /* Pods-libLWEncryptor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libLWEncryptor_Example-frameworks.sh"; sourceTree = "<group>"; };
-		69FCA6981A03BF2A43FA821EA9BA9DA8 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "include-ios/openssl/ripemd.h"; sourceTree = "<group>"; };
-		6A667432B2B4FA187365296246D3CCB3 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = "include-ios/openssl/md4.h"; sourceTree = "<group>"; };
-		6AA4AEE4D3B96ABA10A64399323839F4 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = "include-ios/openssl/comp.h"; sourceTree = "<group>"; };
-		6B1EB42EB43A72DD809455EE4EB027CD /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = "include-ios/openssl/conf_api.h"; sourceTree = "<group>"; };
-		6F1E602AC00F438A715CF4193294DCBB /* LWEncryptorExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWEncryptorExtensions.h; path = libLWEncryptor/Classes/LWEncryptorExtensions.h; sourceTree = "<group>"; };
-		7055D36EE923EFCD88E2AA594FBA92E1 /* Pods-libLWEncryptor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libLWEncryptor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		70E6E0686FDC05B629B2D772C3E4CCD4 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = "include-ios/openssl/ossl_typ.h"; sourceTree = "<group>"; };
-		752502BBD14BE41BA0EAC53BD25CB7B4 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = "include-ios/openssl/conf.h"; sourceTree = "<group>"; };
-		75C4A1DA230D3CEF2AD899D15BAF2735 /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = "include-ios/openssl/err.h"; sourceTree = "<group>"; };
-		7865FD041458D042A3E52117F46648F8 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = "include-ios/openssl/dsa.h"; sourceTree = "<group>"; };
-		7A3B525F1285B674B62A0DE545FBF52A /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = "include-ios/openssl/bn.h"; sourceTree = "<group>"; };
-		807E76BBA2F494D3CE6B46D6A9063C31 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = "include-ios/openssl/safestack.h"; sourceTree = "<group>"; };
-		81B85C3C028440F688EA9B7EFA53A023 /* libLWEncryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libLWEncryptor-umbrella.h"; sourceTree = "<group>"; };
-		8AC76594D0E173FBDDD96849501DF801 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = "include-ios/openssl/ocsp.h"; sourceTree = "<group>"; };
-		8B15F56A58ABEE350CC3AEEBBB26E8A2 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = "include-ios/openssl/cms.h"; sourceTree = "<group>"; };
-		8FACD288C87F22DBD3674837198E1CCA /* LWAESEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWAESEncryptor.h; path = libLWEncryptor/Classes/LWAESEncryptor.h; sourceTree = "<group>"; };
-		8FF2F808396533823FDDB70441F9E8FF /* libLWEncryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libLWEncryptor.modulemap; sourceTree = "<group>"; };
-		906A5E39BC50AB225149449E947D794C /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = "include-ios/openssl/pqueue.h"; sourceTree = "<group>"; };
-		990DCE9ACAB0397C54E10466611DA0A4 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = "include-ios/openssl/asn1_mac.h"; sourceTree = "<group>"; };
-		9CE17E4EDE4CFFBE8033BED3037EA564 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = "include-ios/openssl/ssl2.h"; sourceTree = "<group>"; };
-		9CF864FC037966AA671EBB4E9CA912ED /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "include-ios/openssl/buffer.h"; sourceTree = "<group>"; };
-		9EB371D6242C2E9C8CDD1B6F4FC312F8 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = "include-ios/openssl/e_os2.h"; sourceTree = "<group>"; };
-		A0FB8A84C0014AFF1A5F3BD8271A5EAA /* Pods-libLWEncryptor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libLWEncryptor_Example.modulemap"; sourceTree = "<group>"; };
-		A8006D9A534FF616A0A974C36276706E /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = "include-ios/openssl/objects.h"; sourceTree = "<group>"; };
-		AC08F7B0D0D627447790B839043CE68F /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = "include-ios/openssl/dtls1.h"; sourceTree = "<group>"; };
-		AF4196F9EA56D8C1B542E9235F42407F /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = "include-ios/openssl/modes.h"; sourceTree = "<group>"; };
-		B1633C8613CBC15A2CD0A3287A283403 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = "include-ios/openssl/pem.h"; sourceTree = "<group>"; };
-		B44A6E9C21EE860770B766CFC2419EA2 /* Pods_libLWEncryptor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libLWEncryptor_Example.framework; path = "Pods-libLWEncryptor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8B932402BEE0D73D5F176F523FC97C9 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = "include-ios/openssl/ecdh.h"; sourceTree = "<group>"; };
-		B94411BCBCD35D5D01F654D2B55BBAE8 /* LWRSAEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWRSAEncryptor.h; path = libLWEncryptor/Classes/LWRSAEncryptor.h; sourceTree = "<group>"; };
-		BAD4B1BB2D715FE8480B4B091FCC6EED /* Pods-libLWEncryptor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libLWEncryptor_Example-umbrella.h"; sourceTree = "<group>"; };
-		BB081576464CFE4F40B2A23C1225B3D3 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = "include-ios/openssl/ec.h"; sourceTree = "<group>"; };
-		C0AD3565B1FD91D5FC2DD48CF7551EA7 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = "include-ios/openssl/rand.h"; sourceTree = "<group>"; };
-		C125EB676732F50D896325C116D19024 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "include-ios/openssl/ui.h"; sourceTree = "<group>"; };
-		C83CC4B9EF10772874A0CAA845D27D8A /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "include-ios/openssl/stack.h"; sourceTree = "<group>"; };
-		CB10BAB7E1E83FE7D3BE223F94E35FEE /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = "include-ios/openssl/asn1.h"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD7BCFF67B9C5C96E478668BE381712A /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = "include-ios/openssl/ts.h"; sourceTree = "<group>"; };
-		D5AA25FF40A73F72EA8B7E1ADFDBA6E3 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "include-ios/openssl/camellia.h"; sourceTree = "<group>"; };
-		D7F3DB112558B8299FC25ECB1CC5A224 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = "include-ios/openssl/pkcs7.h"; sourceTree = "<group>"; };
-		D8F7DE5007AE15A15CF87B7D4DAFDDC4 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = "include-ios/openssl/cmac.h"; sourceTree = "<group>"; };
-		D910F366389C6BEC3226CB5AC3C7CA5B /* LWEncryptorExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWEncryptorExtensions.m; path = libLWEncryptor/Classes/LWEncryptorExtensions.m; sourceTree = "<group>"; };
-		DB3AE293796F3D9DD5537AA9BB82B722 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = "include-ios/openssl/kssl.h"; sourceTree = "<group>"; };
-		DF303121421766202D263EB09D6D2997 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = "include-ios/openssl/crypto.h"; sourceTree = "<group>"; };
-		DF5D66ECB84FC8AC52981AA2B36F5C54 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "include-ios/openssl/rc4.h"; sourceTree = "<group>"; };
-		E01118BE353D62D8BD058D6D2893EB86 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = "include-ios/openssl/seed.h"; sourceTree = "<group>"; };
-		E079A0C97BF07BDDE110CB2F846B2EA7 /* libLWEncryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libLWEncryptor.xcconfig; sourceTree = "<group>"; };
-		E42399D7D6C2340A9ECAE7EB70616C07 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = "include-ios/openssl/symhacks.h"; sourceTree = "<group>"; };
-		F2F935E99BF2CA145BAFF8D38FFE5E52 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = "include-ios/openssl/ssl.h"; sourceTree = "<group>"; };
-		F5F77EB1316A5FE93F9576624575E5A8 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "include-ios/openssl/sha.h"; sourceTree = "<group>"; };
-		FB9E8495BEACBA904A5D3673B7FA0F37 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = "include-ios/openssl/x509_vfy.h"; sourceTree = "<group>"; };
-		FCA8CD6D548AB17441B386368FA74BBE /* libLWEncryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libLWEncryptor-prefix.pch"; sourceTree = "<group>"; };
+		01B9F3B3770517DF5ADA5E7D71D8D392 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = ios/include/openssl/ecdsa.h; sourceTree = "<group>"; };
+		02F33873E58777030863FBFB62045C1C /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = ios/include/openssl/md4.h; sourceTree = "<group>"; };
+		053FF7AE22F6701607CB2C942085E485 /* Pods-LWEncryptor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWEncryptor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05501740F64394C0A36353C60F3D9B78 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = ios/include/openssl/dsa.h; sourceTree = "<group>"; };
+		07651C9D9199B823F9510B870AC3F6D5 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = ios/include/openssl/safestack.h; sourceTree = "<group>"; };
+		07E5E1FF164C1845F6F1B302210143B5 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = ios/lib/libcrypto.a; sourceTree = "<group>"; };
+		0ABB4366C2F60A431EB4DE30CE0DA124 /* LWEncryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWEncryptor.framework; path = LWEncryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE3B1ADD83658EA766D466AE46623E2 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = ios/include/openssl/ebcdic.h; sourceTree = "<group>"; };
+		0C6425448413296A160828D7067FA2B3 /* Pods-LWEncryptor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWEncryptor_Example.modulemap"; sourceTree = "<group>"; };
+		0C8FDBC6F4F7B9DCAD51877EBC8373F6 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = ios/include/openssl/comp.h; sourceTree = "<group>"; };
+		17F28561971BABD1A38B3250D9AC168B /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = ios/include/openssl/pkcs12.h; sourceTree = "<group>"; };
+		180AB5CDE06DAAB1119CA3BAC8A9F7F6 /* opensslconf-x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-x86_64.h"; path = "ios/include/openssl/opensslconf-x86_64.h"; sourceTree = "<group>"; };
+		1842D30AED591514D7066F2BEC6198CE /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = ios/include/openssl/hmac.h; sourceTree = "<group>"; };
+		1EC94502AF5D400EE372FEFF5137E06A /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = ios/include/openssl/ts.h; sourceTree = "<group>"; };
+		2097228D70B1B2C08FF316E56FE89AFB /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = ios/include/openssl/asn1t.h; sourceTree = "<group>"; };
+		21141DE7AB0D1BF9A18A40A40324B056 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = ios/include/openssl/tls1.h; sourceTree = "<group>"; };
+		2373B539615BC499284137A90A983715 /* LWAESEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWAESEncryptor.m; path = LWEncryptor/Classes/LWAESEncryptor.m; sourceTree = "<group>"; };
+		246B183453A29DD93B94328B872789D6 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = ios/include/openssl/pkcs7.h; sourceTree = "<group>"; };
+		25AB2B12CBB2CAE4AAA52CE41485A6D5 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = ios/include/openssl/opensslconf.h; sourceTree = "<group>"; };
+		27118E58E4DD951B61A99E882E6D5A75 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = ios/include/openssl/opensslv.h; sourceTree = "<group>"; };
+		2DE4C129F30AF917E375741E1D7D190D /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = ios/include/openssl/ossl_typ.h; sourceTree = "<group>"; };
+		2F61320C9DC61CE524D303E82BD1F76C /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = ios/include/openssl/bn.h; sourceTree = "<group>"; };
+		2FF48D8DEB8BEB1A2D7B5B8617ECF2F3 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = ios/include/openssl/blowfish.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3595F4E05B6696D08546C0FFEE925A10 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = ios/include/openssl/cast.h; sourceTree = "<group>"; };
+		362366B05261427AC34464C5D0EB2CA4 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = ios/include/openssl/ui.h; sourceTree = "<group>"; };
+		36DD82D9B755A5658BCD619E2D08257B /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = ios/include/openssl/err.h; sourceTree = "<group>"; };
+		36E221A8D787BC735E8B17EF9CF8F179 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = ios/include/openssl/cms.h; sourceTree = "<group>"; };
+		382C8C4FCD157EAEDED5DA68639580FB /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = ios/include/openssl/asn1_mac.h; sourceTree = "<group>"; };
+		3D4FD77BFCBE3E636ABE6F1C26FDB5B9 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = ios/include/openssl/bio.h; sourceTree = "<group>"; };
+		43A3B7556CF7252DABCBAE3D10097628 /* LWAESEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWAESEncryptor.h; path = LWEncryptor/Classes/LWAESEncryptor.h; sourceTree = "<group>"; };
+		4787D4A1C9A375368DC94B6A85B203D9 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = ios/include/openssl/cmac.h; sourceTree = "<group>"; };
+		4C140F8906B3F582ED6BE56E38C056C3 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = ios/include/openssl/pem.h; sourceTree = "<group>"; };
+		4D257DA6C97FBB7C5863831E03F502BD /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = ios/include/openssl/seed.h; sourceTree = "<group>"; };
+		4EFCCDCE257CD4AE7635C7D0E12884A7 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = ios/include/openssl/pem2.h; sourceTree = "<group>"; };
+		4FA7D306B59ED71A8D517E94377C97B9 /* shim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shim.h; path = ios/include/openssl/shim.h; sourceTree = "<group>"; };
+		51525C0A37A5AA661CA1009A1B27121D /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = ios/include/openssl/obj_mac.h; sourceTree = "<group>"; };
+		548A3BBB93D54D495EF5CDC6F0CE85E3 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = ios/include/openssl/buffer.h; sourceTree = "<group>"; };
+		572C0349AAF4D71235593A2668B5FDBC /* Pods-LWEncryptor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWEncryptor_Example-dummy.m"; sourceTree = "<group>"; };
+		594F0A3DDCF60ECF522CF8B381F7F053 /* Pods-LWEncryptor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWEncryptor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5AD0E515AE04D705B878ADC00A909470 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = ios/include/openssl/krb5_asn.h; sourceTree = "<group>"; };
+		5B9C2DE3DF47A6AE29F04AA2FF3A3BBD /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = ios/include/openssl/ssl3.h; sourceTree = "<group>"; };
+		5D3393D61B11B9DF3DB434E8F5BF2783 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = ios/include/openssl/x509.h; sourceTree = "<group>"; };
+		5D5481B62D056032EE1547096676D965 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = ios/include/openssl/crypto.h; sourceTree = "<group>"; };
+		5DAE5E5BA6962BCDD3E07BB3070B6034 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = ios/include/openssl/ssl.h; sourceTree = "<group>"; };
+		6060F1748F8947E696ECBEE21AF565CF /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = ios/lib/libssl.a; sourceTree = "<group>"; };
+		63BF43AC902450317F2A4960E3E63826 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = ios/include/openssl/rand.h; sourceTree = "<group>"; };
+		656D3344E589C61BAD3564A2676E1F31 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = ios/include/openssl/des_old.h; sourceTree = "<group>"; };
+		6580DE6DB4C86A6B3B37D62DEE9698EF /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = ios/include/openssl/md5.h; sourceTree = "<group>"; };
+		65F3759B9BD6B1111852B1A357EA851F /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = ios/include/openssl/evp.h; sourceTree = "<group>"; };
+		6A4B4F67D97036062EB80B26670DA89F /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = ios/include/openssl/conf_api.h; sourceTree = "<group>"; };
+		6D0749A14344D7356C823271C0937211 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = ios/include/openssl/lhash.h; sourceTree = "<group>"; };
+		72D8C22C2A2178F4F6F06D7CE98F2FE0 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = ios/include/openssl/camellia.h; sourceTree = "<group>"; };
+		72DEFF280B550695AD3354251FCDCC98 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = ios/include/openssl/ecdh.h; sourceTree = "<group>"; };
+		75A56599F5155236DE3656539A25AF2B /* LWEncryptor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWEncryptor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		784C5B1D0896A6B56A708E0538828080 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = ios/include/openssl/srtp.h; sourceTree = "<group>"; };
+		792090ACE4469867A6CA09A58F28E621 /* Pods-LWEncryptor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWEncryptor_Example-Info.plist"; sourceTree = "<group>"; };
+		7932E17A3BB6DA8C4FCCCB84E17C3113 /* LWEncryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWEncryptor.modulemap; sourceTree = "<group>"; };
+		7B32EBB40927FB525C4D05FD5A0D21C8 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = ios/include/openssl/ssl2.h; sourceTree = "<group>"; };
+		7B530BE8F11A1C6BE0C632AEA85F5DC2 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = ios/include/openssl/txt_db.h; sourceTree = "<group>"; };
+		7D9881D96C92806D01934448CF685975 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = ios/include/openssl/engine.h; sourceTree = "<group>"; };
+		83C6E03C9C26962E9FA2009FEDE0C834 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = ios/include/openssl/rc2.h; sourceTree = "<group>"; };
+		8757BD675AF9FE8AF82DEB5090295621 /* Pods-LWEncryptor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWEncryptor_Example-umbrella.h"; sourceTree = "<group>"; };
+		877BB4F5E234278999EEA713544B89C3 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = ios/include/openssl/ssl23.h; sourceTree = "<group>"; };
+		89DBC98375BD889186D12DA2D32FA22D /* Pods-LWEncryptor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWEncryptor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E4226B2FDE80FEA2EBDB47B42B1E03B /* LWEncryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWEncryptor.xcconfig; sourceTree = "<group>"; };
+		9682BCFA3F203F2BAFC86F0AC6C59197 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = ios/include/openssl/rsa.h; sourceTree = "<group>"; };
+		96C8721C7471A57D56910D672851648A /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = ios/include/openssl/objects.h; sourceTree = "<group>"; };
+		98CCCC9FA583CDF1342DA9F28D088862 /* opensslconf-i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-i386.h"; path = "ios/include/openssl/opensslconf-i386.h"; sourceTree = "<group>"; };
+		9918A3A7E4D25CF29E714FD93A134126 /* Pods_LWEncryptor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LWEncryptor_Example.framework; path = "Pods-LWEncryptor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDD906E9110E97A1FF67D37CA3176AB /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = ios/include/openssl/idea.h; sourceTree = "<group>"; };
+		9F7D43EEC8FB734D40269F4B1EB10E81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A07598B2C29EA479512D6A17D69A1D15 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = ios/include/openssl/dso.h; sourceTree = "<group>"; };
+		A397F70C4C3C3033A7E2B281796D4DD1 /* LWEncryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWEncryptor-prefix.pch"; sourceTree = "<group>"; };
+		A3A618917CE51B4141CB9589E123A550 /* opensslconf-arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-arm64.h"; path = "ios/include/openssl/opensslconf-arm64.h"; sourceTree = "<group>"; };
+		A43497BD8EBD1A79EA78620ED861EE4E /* LWRSAEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWRSAEncryptor.h; path = LWEncryptor/Classes/LWRSAEncryptor.h; sourceTree = "<group>"; };
+		A4F96BCA30AF7B9B15D4E145BC778C27 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = ios/include/openssl/symhacks.h; sourceTree = "<group>"; };
+		B204F29663259BC0902727F253556341 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3B0F57D3127CBD9C630B282C2998A0C /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = ios/include/openssl/dh.h; sourceTree = "<group>"; };
+		B4DBAC2A55305DC3AF12A24FEB52AA74 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = ios/include/openssl/kssl.h; sourceTree = "<group>"; };
+		B6903320315B57A0EA5C3FDF1FFB34D8 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = ios/include/openssl/ocsp.h; sourceTree = "<group>"; };
+		B80F192A4139B92124FA3A6FAC12A4DF /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = ios/include/openssl/des.h; sourceTree = "<group>"; };
+		BA5E2DF803C7E6BF46B9C5E6CE6885D2 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = ios/include/openssl/e_os2.h; sourceTree = "<group>"; };
+		BAD22569D84664D216F5C5309BB37F22 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = ios/include/openssl/pqueue.h; sourceTree = "<group>"; };
+		BC17DECCBA3EDC37921E8009DCFB3882 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = ios/include/openssl/srp.h; sourceTree = "<group>"; };
+		BC6EB15DD5CD9966330054E861FCAB1B /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = ios/include/openssl/dtls1.h; sourceTree = "<group>"; };
+		BEC78577B86B51A2B05CB3CD2DC98C5C /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ios/include/openssl/stack.h; sourceTree = "<group>"; };
+		C09B831962A309BD46B78CAF0F171850 /* LWEncryptorExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWEncryptorExtensions.m; path = LWEncryptor/Classes/LWEncryptorExtensions.m; sourceTree = "<group>"; };
+		C2585780F8D9E823AF1FDBEE11D992DB /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = ios/include/openssl/sha.h; sourceTree = "<group>"; };
+		C6787A53559D0A231568009E4F423103 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = ios/include/openssl/ui_compat.h; sourceTree = "<group>"; };
+		CE79779D30D65FA051EB28AF0CE4F9A3 /* opensslconf-armv7s.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-armv7s.h"; path = "ios/include/openssl/opensslconf-armv7s.h"; sourceTree = "<group>"; };
+		D26AEC55F38EE05489D884CE09D8D5DD /* opensslconf-armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-armv7.h"; path = "ios/include/openssl/opensslconf-armv7.h"; sourceTree = "<group>"; };
+		D2FEFA75A5691AF3B813A8C588C4F074 /* LWEncryptor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWEncryptor-Info.plist"; sourceTree = "<group>"; };
+		D4AB82FBEA8E797E4D3EEC96E97CD42E /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = ios/include/openssl/modes.h; sourceTree = "<group>"; };
+		DBAE77CBCBB1585F72AEA26ACF92D67E /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = ios/include/openssl/x509_vfy.h; sourceTree = "<group>"; };
+		DC945AF9C09C3C7E55EA6A36D8812B8E /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = ios/include/openssl/mdc2.h; sourceTree = "<group>"; };
+		DD4F2BC67D98C5C4C2EC6E7FAD55AF75 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = ios/include/openssl/asn1.h; sourceTree = "<group>"; };
+		E40012ACC40BD6563EE63BF3D79B02AC /* LWEncryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWEncryptor-dummy.m"; sourceTree = "<group>"; };
+		EB407512EC1B046A0DECA106E494C0CB /* LWEncryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWEncryptor-umbrella.h"; sourceTree = "<group>"; };
+		EC49448F717509E9733051643B9BCFDB /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = ios/include/openssl/rc4.h; sourceTree = "<group>"; };
+		EF3CA4E154056487588929D0B2ED1003 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = ios/include/openssl/ripemd.h; sourceTree = "<group>"; };
+		F41B0E7B0EE11DFC07B557C2F91965B6 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = ios/include/openssl/ec.h; sourceTree = "<group>"; };
+		F55BCE370A3A04C874256FD99F33EF9F /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = ios/include/openssl/aes.h; sourceTree = "<group>"; };
+		F62CBC95E7E1229DE18CEF4232592161 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = ios/include/openssl/x509v3.h; sourceTree = "<group>"; };
+		F89243F713AEED270D1F0A8070AB12B8 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = ios/include/openssl/whrlpool.h; sourceTree = "<group>"; };
+		F8A30D18F5F3D9F1F79A435D2F235D92 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = ios/include/openssl/conf.h; sourceTree = "<group>"; };
+		F905010CEB99964876A957395FCCAE65 /* Pods-LWEncryptor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWEncryptor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FE55FFD33359EFC6CD741EB251B21F57 /* LWRSAEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWRSAEncryptor.m; path = LWEncryptor/Classes/LWRSAEncryptor.m; sourceTree = "<group>"; };
+		FED9258C6F06DF706DEE5F3B6F7CBA99 /* LWEncryptorExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWEncryptorExtensions.h; path = LWEncryptor/Classes/LWEncryptorExtensions.h; sourceTree = "<group>"; };
+		FFFC905481A180FF894130A4425D8460 /* OpenSSL-Universal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFA75E633DFC54C4B188D72581960C68 /* Frameworks */ = {
+		665CBE27FF4DD892367ABB53A00E8673 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06CF00BADCAAAA73F605DACDD7D902CE /* Foundation.framework in Frameworks */,
+				B5E5523F63EAFC69CA0273047D7665BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09AC570D60502843C577E0C14727B78 /* Frameworks */ = {
+		D1FF23E0AF6FD9A2F62F2BE0CCBCEE95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E085533E102834180368AACAFD8C81C4 /* Foundation.framework in Frameworks */,
+				4F4E6E71B0FD0C19F00B0D8F84E9580A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04FC6E339E3A27B07F02F586B9F6AD42 /* Frameworks */ = {
+		29CCF5649C47B5731964A3D0BB9B6C65 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				350169BD130F6EE346B83A6120F840CE /* libcrypto.a */,
-				55CF8D04656427EDC1C3307C7A44FF99 /* libssl.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		37918A165DBC4C729DA64988751AEADA /* libLWEncryptor */ = {
-			isa = PBXGroup;
-			children = (
-				8FACD288C87F22DBD3674837198E1CCA /* LWAESEncryptor.h */,
-				1E2811738239C03FA5019E192DE6843E /* LWAESEncryptor.m */,
-				6F1E602AC00F438A715CF4193294DCBB /* LWEncryptorExtensions.h */,
-				D910F366389C6BEC3226CB5AC3C7CA5B /* LWEncryptorExtensions.m */,
-				B94411BCBCD35D5D01F654D2B55BBAE8 /* LWRSAEncryptor.h */,
-				317755A0D54BFE19CF2FA0EFDBB960A6 /* LWRSAEncryptor.m */,
-				3D1939C51549872D954BC1B511603FAC /* Pod */,
-				4CF88F397458F6B91B8848F481291E37 /* Support Files */,
-			);
-			name = libLWEncryptor;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3D1939C51549872D954BC1B511603FAC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				438DBF7723EA2B72F082E130A807D887 /* libLWEncryptor.podspec */,
-				4F694AC349161F3B12DB32DCA7B85609 /* LICENSE */,
-				3FAAFDF963F8F90493D58038E65193C3 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4B0BA11A6ECF73713523DF571EFDAB9D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				24C13D14CA2D25F72131EE6D10E4D829 /* libLWEncryptor.framework */,
-				B44A6E9C21EE860770B766CFC2419EA2 /* Pods_libLWEncryptor_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4CF88F397458F6B91B8848F481291E37 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FF2F808396533823FDDB70441F9E8FF /* libLWEncryptor.modulemap */,
-				E079A0C97BF07BDDE110CB2F846B2EA7 /* libLWEncryptor.xcconfig */,
-				462E815B011BBD452F4BCBF20F8579CE /* libLWEncryptor-dummy.m */,
-				FCA8CD6D548AB17441B386368FA74BBE /* libLWEncryptor-prefix.pch */,
-				81B85C3C028440F688EA9B7EFA53A023 /* libLWEncryptor-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libLWEncryptor";
-			sourceTree = "<group>";
-		};
-		54E6564173C519AF80035A7781740BD0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37918A165DBC4C729DA64988751AEADA /* libLWEncryptor */,
+				DE0E59AD187D2472914088EA16BB370D /* LWEncryptor */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9933087B1EC994A3642E53E399AEA349 /* Pods */ = {
+		6D079DE5D42946952A1CFAD81BAC62A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE209463F37C79D86346C384C2C87B77 /* OpenSSL-Universal */,
+				7932E17A3BB6DA8C4FCCCB84E17C3113 /* LWEncryptor.modulemap */,
+				8E4226B2FDE80FEA2EBDB47B42B1E03B /* LWEncryptor.xcconfig */,
+				E40012ACC40BD6563EE63BF3D79B02AC /* LWEncryptor-dummy.m */,
+				D2FEFA75A5691AF3B813A8C588C4F074 /* LWEncryptor-Info.plist */,
+				A397F70C4C3C3033A7E2B281796D4DD1 /* LWEncryptor-prefix.pch */,
+				EB407512EC1B046A0DECA106E494C0CB /* LWEncryptor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LWEncryptor";
+			sourceTree = "<group>";
+		};
+		8479BAA8FF147F675C3CCF6774776249 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F11B1EFCBD087F71C3563C6A5567F2 /* OpenSSL-Universal */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		8B92691F4399A7C560A967B3141BC2C9 /* Pods-LWEncryptor_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				0C6425448413296A160828D7067FA2B3 /* Pods-LWEncryptor_Example.modulemap */,
+				053FF7AE22F6701607CB2C942085E485 /* Pods-LWEncryptor_Example-acknowledgements.markdown */,
+				89DBC98375BD889186D12DA2D32FA22D /* Pods-LWEncryptor_Example-acknowledgements.plist */,
+				572C0349AAF4D71235593A2668B5FDBC /* Pods-LWEncryptor_Example-dummy.m */,
+				792090ACE4469867A6CA09A58F28E621 /* Pods-LWEncryptor_Example-Info.plist */,
+				8757BD675AF9FE8AF82DEB5090295621 /* Pods-LWEncryptor_Example-umbrella.h */,
+				F905010CEB99964876A957395FCCAE65 /* Pods-LWEncryptor_Example.debug.xcconfig */,
+				594F0A3DDCF60ECF522CF8B381F7F053 /* Pods-LWEncryptor_Example.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-LWEncryptor_Example";
+			path = "Target Support Files/Pods-LWEncryptor_Example";
 			sourceTree = "<group>";
 		};
-		AE209463F37C79D86346C384C2C87B77 /* OpenSSL-Universal */ = {
+		91F11B1EFCBD087F71C3563C6A5567F2 /* OpenSSL-Universal */ = {
 			isa = PBXGroup;
 			children = (
-				51F74BC0CC75F9A4182CA76BE80A3383 /* aes.h */,
-				CB10BAB7E1E83FE7D3BE223F94E35FEE /* asn1.h */,
-				990DCE9ACAB0397C54E10466611DA0A4 /* asn1_mac.h */,
-				5769486815AC1114D5FBA396B1C6A85F /* asn1t.h */,
-				04A6441605BF64DFE3EB7AB1BAA507A7 /* bio.h */,
-				2FC0D40B9EFB5630AB2356CB325B27A2 /* blowfish.h */,
-				7A3B525F1285B674B62A0DE545FBF52A /* bn.h */,
-				9CF864FC037966AA671EBB4E9CA912ED /* buffer.h */,
-				D5AA25FF40A73F72EA8B7E1ADFDBA6E3 /* camellia.h */,
-				386F38FF4A7A0EB4781206A8C3FC3A3A /* cast.h */,
-				D8F7DE5007AE15A15CF87B7D4DAFDDC4 /* cmac.h */,
-				8B15F56A58ABEE350CC3AEEBBB26E8A2 /* cms.h */,
-				6AA4AEE4D3B96ABA10A64399323839F4 /* comp.h */,
-				752502BBD14BE41BA0EAC53BD25CB7B4 /* conf.h */,
-				6B1EB42EB43A72DD809455EE4EB027CD /* conf_api.h */,
-				DF303121421766202D263EB09D6D2997 /* crypto.h */,
-				0CAF6C5E07AD77933DEF58FAF600877E /* des.h */,
-				54CCE856C19FB2A5C89D79EDA72EE0EE /* des_old.h */,
-				0D0C514119C8EC79D72DEFD79406E95A /* dh.h */,
-				7865FD041458D042A3E52117F46648F8 /* dsa.h */,
-				0B6630BC948577FB7148C4FB16BA4DE0 /* dso.h */,
-				AC08F7B0D0D627447790B839043CE68F /* dtls1.h */,
-				9EB371D6242C2E9C8CDD1B6F4FC312F8 /* e_os2.h */,
-				5CE3310E204511977D7DE7B61C82EBE3 /* ebcdic.h */,
-				BB081576464CFE4F40B2A23C1225B3D3 /* ec.h */,
-				B8B932402BEE0D73D5F176F523FC97C9 /* ecdh.h */,
-				69318E90FBDA9FFF0C02E3ECB91DD014 /* ecdsa.h */,
-				508DFE058B45DF16EF78962490D7A2B9 /* engine.h */,
-				75C4A1DA230D3CEF2AD899D15BAF2735 /* err.h */,
-				1E8ED0B9D4D35CD1D1F235926FA329C4 /* evp.h */,
-				1A9673C91610962917A634E2DB516500 /* hmac.h */,
-				0DB50B57347E54C01AE356030B52EA0D /* idea.h */,
-				3576614B83276AAC7B9B8B644284F008 /* krb5_asn.h */,
-				DB3AE293796F3D9DD5537AA9BB82B722 /* kssl.h */,
-				3AFB7FEB2991D09C4B3E0E7FEEB62485 /* lhash.h */,
-				6A667432B2B4FA187365296246D3CCB3 /* md4.h */,
-				3D769F733537C5FF849FB669051BE7B1 /* md5.h */,
-				041DC29B3E1221D536FA6C37162651FF /* mdc2.h */,
-				AF4196F9EA56D8C1B542E9235F42407F /* modes.h */,
-				253E8C3C7A17EC5909AF7B15CADD9F67 /* obj_mac.h */,
-				A8006D9A534FF616A0A974C36276706E /* objects.h */,
-				8AC76594D0E173FBDDD96849501DF801 /* ocsp.h */,
-				3FF2D7EF773FC8FBE619DF458601F306 /* opensslconf.h */,
-				50DAA6C07A3C8C4672522BD0663A54BC /* opensslv.h */,
-				70E6E0686FDC05B629B2D772C3E4CCD4 /* ossl_typ.h */,
-				B1633C8613CBC15A2CD0A3287A283403 /* pem.h */,
-				4E882351ABC1866A33E32713C7B2C444 /* pem2.h */,
-				1E2D58B9307E9227A3407822A4F75DF1 /* pkcs12.h */,
-				D7F3DB112558B8299FC25ECB1CC5A224 /* pkcs7.h */,
-				906A5E39BC50AB225149449E947D794C /* pqueue.h */,
-				C0AD3565B1FD91D5FC2DD48CF7551EA7 /* rand.h */,
-				3C4F5C0AF3DED777691DE98491667449 /* rc2.h */,
-				DF5D66ECB84FC8AC52981AA2B36F5C54 /* rc4.h */,
-				69FCA6981A03BF2A43FA821EA9BA9DA8 /* ripemd.h */,
-				5F7AF798C42F6D97821D1FB53F79100C /* rsa.h */,
-				807E76BBA2F494D3CE6B46D6A9063C31 /* safestack.h */,
-				E01118BE353D62D8BD058D6D2893EB86 /* seed.h */,
-				F5F77EB1316A5FE93F9576624575E5A8 /* sha.h */,
-				5A246BABE2DF74830A67A4145F42346A /* srp.h */,
-				2FC7556D2ADE712D93EBB04BFC5958DB /* srtp.h */,
-				F2F935E99BF2CA145BAFF8D38FFE5E52 /* ssl.h */,
-				9CE17E4EDE4CFFBE8033BED3037EA564 /* ssl2.h */,
-				61DF760C38FFC308CC79F6DD1F1C80F4 /* ssl23.h */,
-				1CE3EEBEE977824427AA4079AB1C0B5A /* ssl3.h */,
-				C83CC4B9EF10772874A0CAA845D27D8A /* stack.h */,
-				E42399D7D6C2340A9ECAE7EB70616C07 /* symhacks.h */,
-				389466F524C077E6078C8D185308C7CC /* tls1.h */,
-				CD7BCFF67B9C5C96E478668BE381712A /* ts.h */,
-				049EA897DD172A135AFB504A790BEF08 /* txt_db.h */,
-				C125EB676732F50D896325C116D19024 /* ui.h */,
-				021CC44BE8307BB9FCEEEAA9D7210D42 /* ui_compat.h */,
-				5C196AB2962A261F883DAD13CDD2A92F /* whrlpool.h */,
-				4959C10936D23D481363FD815E28AF77 /* x509.h */,
-				FB9E8495BEACBA904A5D3673B7FA0F37 /* x509_vfy.h */,
-				2409FA694145B9E5885CE02C6348CB16 /* x509v3.h */,
-				04FC6E339E3A27B07F02F586B9F6AD42 /* Frameworks */,
+				B419A2B1185DA302BA83780F923AFDA9 /* Static */,
+				C7E3C8FD23AB497BF3994827BE732D10 /* Support Files */,
 			);
 			name = "OpenSSL-Universal";
 			path = "OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
-		C5F78FE4B66474DCB4EB6719813A70CE /* Targets Support Files */ = {
+		9D26DE432931251BAF523DD5C9371858 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E657BB90557B52F6393FA15F8849A98E /* Pods-libLWEncryptor_Example */,
+				9F7D43EEC8FB734D40269F4B1EB10E81 /* LICENSE */,
+				75A56599F5155236DE3656539A25AF2B /* LWEncryptor.podspec */,
+				B204F29663259BC0902727F253556341 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B12A39394F3D5D8DD2C184C0176BF30B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B92691F4399A7C560A967B3141BC2C9 /* Pods-LWEncryptor_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B419A2B1185DA302BA83780F923AFDA9 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				F55BCE370A3A04C874256FD99F33EF9F /* aes.h */,
+				DD4F2BC67D98C5C4C2EC6E7FAD55AF75 /* asn1.h */,
+				382C8C4FCD157EAEDED5DA68639580FB /* asn1_mac.h */,
+				2097228D70B1B2C08FF316E56FE89AFB /* asn1t.h */,
+				3D4FD77BFCBE3E636ABE6F1C26FDB5B9 /* bio.h */,
+				2FF48D8DEB8BEB1A2D7B5B8617ECF2F3 /* blowfish.h */,
+				2F61320C9DC61CE524D303E82BD1F76C /* bn.h */,
+				548A3BBB93D54D495EF5CDC6F0CE85E3 /* buffer.h */,
+				72D8C22C2A2178F4F6F06D7CE98F2FE0 /* camellia.h */,
+				3595F4E05B6696D08546C0FFEE925A10 /* cast.h */,
+				4787D4A1C9A375368DC94B6A85B203D9 /* cmac.h */,
+				36E221A8D787BC735E8B17EF9CF8F179 /* cms.h */,
+				0C8FDBC6F4F7B9DCAD51877EBC8373F6 /* comp.h */,
+				F8A30D18F5F3D9F1F79A435D2F235D92 /* conf.h */,
+				6A4B4F67D97036062EB80B26670DA89F /* conf_api.h */,
+				5D5481B62D056032EE1547096676D965 /* crypto.h */,
+				B80F192A4139B92124FA3A6FAC12A4DF /* des.h */,
+				656D3344E589C61BAD3564A2676E1F31 /* des_old.h */,
+				B3B0F57D3127CBD9C630B282C2998A0C /* dh.h */,
+				05501740F64394C0A36353C60F3D9B78 /* dsa.h */,
+				A07598B2C29EA479512D6A17D69A1D15 /* dso.h */,
+				BC6EB15DD5CD9966330054E861FCAB1B /* dtls1.h */,
+				BA5E2DF803C7E6BF46B9C5E6CE6885D2 /* e_os2.h */,
+				0AE3B1ADD83658EA766D466AE46623E2 /* ebcdic.h */,
+				F41B0E7B0EE11DFC07B557C2F91965B6 /* ec.h */,
+				72DEFF280B550695AD3354251FCDCC98 /* ecdh.h */,
+				01B9F3B3770517DF5ADA5E7D71D8D392 /* ecdsa.h */,
+				7D9881D96C92806D01934448CF685975 /* engine.h */,
+				36DD82D9B755A5658BCD619E2D08257B /* err.h */,
+				65F3759B9BD6B1111852B1A357EA851F /* evp.h */,
+				1842D30AED591514D7066F2BEC6198CE /* hmac.h */,
+				9EDD906E9110E97A1FF67D37CA3176AB /* idea.h */,
+				5AD0E515AE04D705B878ADC00A909470 /* krb5_asn.h */,
+				B4DBAC2A55305DC3AF12A24FEB52AA74 /* kssl.h */,
+				6D0749A14344D7356C823271C0937211 /* lhash.h */,
+				02F33873E58777030863FBFB62045C1C /* md4.h */,
+				6580DE6DB4C86A6B3B37D62DEE9698EF /* md5.h */,
+				DC945AF9C09C3C7E55EA6A36D8812B8E /* mdc2.h */,
+				D4AB82FBEA8E797E4D3EEC96E97CD42E /* modes.h */,
+				51525C0A37A5AA661CA1009A1B27121D /* obj_mac.h */,
+				96C8721C7471A57D56910D672851648A /* objects.h */,
+				B6903320315B57A0EA5C3FDF1FFB34D8 /* ocsp.h */,
+				25AB2B12CBB2CAE4AAA52CE41485A6D5 /* opensslconf.h */,
+				A3A618917CE51B4141CB9589E123A550 /* opensslconf-arm64.h */,
+				D26AEC55F38EE05489D884CE09D8D5DD /* opensslconf-armv7.h */,
+				CE79779D30D65FA051EB28AF0CE4F9A3 /* opensslconf-armv7s.h */,
+				98CCCC9FA583CDF1342DA9F28D088862 /* opensslconf-i386.h */,
+				180AB5CDE06DAAB1119CA3BAC8A9F7F6 /* opensslconf-x86_64.h */,
+				27118E58E4DD951B61A99E882E6D5A75 /* opensslv.h */,
+				2DE4C129F30AF917E375741E1D7D190D /* ossl_typ.h */,
+				4C140F8906B3F582ED6BE56E38C056C3 /* pem.h */,
+				4EFCCDCE257CD4AE7635C7D0E12884A7 /* pem2.h */,
+				17F28561971BABD1A38B3250D9AC168B /* pkcs12.h */,
+				246B183453A29DD93B94328B872789D6 /* pkcs7.h */,
+				BAD22569D84664D216F5C5309BB37F22 /* pqueue.h */,
+				63BF43AC902450317F2A4960E3E63826 /* rand.h */,
+				83C6E03C9C26962E9FA2009FEDE0C834 /* rc2.h */,
+				EC49448F717509E9733051643B9BCFDB /* rc4.h */,
+				EF3CA4E154056487588929D0B2ED1003 /* ripemd.h */,
+				9682BCFA3F203F2BAFC86F0AC6C59197 /* rsa.h */,
+				07651C9D9199B823F9510B870AC3F6D5 /* safestack.h */,
+				4D257DA6C97FBB7C5863831E03F502BD /* seed.h */,
+				C2585780F8D9E823AF1FDBEE11D992DB /* sha.h */,
+				4FA7D306B59ED71A8D517E94377C97B9 /* shim.h */,
+				BC17DECCBA3EDC37921E8009DCFB3882 /* srp.h */,
+				784C5B1D0896A6B56A708E0538828080 /* srtp.h */,
+				5DAE5E5BA6962BCDD3E07BB3070B6034 /* ssl.h */,
+				7B32EBB40927FB525C4D05FD5A0D21C8 /* ssl2.h */,
+				877BB4F5E234278999EEA713544B89C3 /* ssl23.h */,
+				5B9C2DE3DF47A6AE29F04AA2FF3A3BBD /* ssl3.h */,
+				BEC78577B86B51A2B05CB3CD2DC98C5C /* stack.h */,
+				A4F96BCA30AF7B9B15D4E145BC778C27 /* symhacks.h */,
+				21141DE7AB0D1BF9A18A40A40324B056 /* tls1.h */,
+				1EC94502AF5D400EE372FEFF5137E06A /* ts.h */,
+				7B530BE8F11A1C6BE0C632AEA85F5DC2 /* txt_db.h */,
+				362366B05261427AC34464C5D0EB2CA4 /* ui.h */,
+				C6787A53559D0A231568009E4F423103 /* ui_compat.h */,
+				F89243F713AEED270D1F0A8070AB12B8 /* whrlpool.h */,
+				5D3393D61B11B9DF3DB434E8F5BF2783 /* x509.h */,
+				DBAE77CBCBB1585F72AEA26ACF92D67E /* x509_vfy.h */,
+				F62CBC95E7E1229DE18CEF4232592161 /* x509v3.h */,
+				D4A73131275BB50BBC038D63423D040D /* Frameworks */,
+			);
+			name = Static;
+			sourceTree = "<group>";
+		};
+		B54B7042C7EEA2DE0D6AF569EC58E946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ABB4366C2F60A431EB4DE30CE0DA124 /* LWEncryptor.framework */,
+				9918A3A7E4D25CF29E714FD93A134126 /* Pods_LWEncryptor_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7E3C8FD23AB497BF3994827BE732D10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC905481A180FF894130A4425D8460 /* OpenSSL-Universal.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				54E6564173C519AF80035A7781740BD0 /* Development Pods */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				29CCF5649C47B5731964A3D0BB9B6C65 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9933087B1EC994A3642E53E399AEA349 /* Pods */,
-				4B0BA11A6ECF73713523DF571EFDAB9D /* Products */,
-				C5F78FE4B66474DCB4EB6719813A70CE /* Targets Support Files */,
+				8479BAA8FF147F675C3CCF6774776249 /* Pods */,
+				B54B7042C7EEA2DE0D6AF569EC58E946 /* Products */,
+				B12A39394F3D5D8DD2C184C0176BF30B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E657BB90557B52F6393FA15F8849A98E /* Pods-libLWEncryptor_Example */ = {
+		D4A73131275BB50BBC038D63423D040D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64FAE373938CD640C03CC59D8FEB7C8A /* Info.plist */,
-				A0FB8A84C0014AFF1A5F3BD8271A5EAA /* Pods-libLWEncryptor_Example.modulemap */,
-				58079607F7C08FA6A33E11E5BABB5794 /* Pods-libLWEncryptor_Example-acknowledgements.markdown */,
-				7055D36EE923EFCD88E2AA594FBA92E1 /* Pods-libLWEncryptor_Example-acknowledgements.plist */,
-				23532E56F2FBFF1E449F6A3240123F02 /* Pods-libLWEncryptor_Example-dummy.m */,
-				69A9BC9FC603429FBDA24A8CF3426C97 /* Pods-libLWEncryptor_Example-frameworks.sh */,
-				27BDEDFA788DB681C8C3C3EB35A8AF45 /* Pods-libLWEncryptor_Example-resources.sh */,
-				BAD4B1BB2D715FE8480B4B091FCC6EED /* Pods-libLWEncryptor_Example-umbrella.h */,
-				0E27385A6DF2A7CAA5397DA5C3411758 /* Pods-libLWEncryptor_Example.debug.xcconfig */,
-				22F7DD6DD660D072066C106DA4540055 /* Pods-libLWEncryptor_Example.release.xcconfig */,
+				07E5E1FF164C1845F6F1B302210143B5 /* libcrypto.a */,
+				6060F1748F8947E696ECBEE21AF565CF /* libssl.a */,
 			);
-			name = "Pods-libLWEncryptor_Example";
-			path = "Target Support Files/Pods-libLWEncryptor_Example";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0E59AD187D2472914088EA16BB370D /* LWEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				43A3B7556CF7252DABCBAE3D10097628 /* LWAESEncryptor.h */,
+				2373B539615BC499284137A90A983715 /* LWAESEncryptor.m */,
+				FED9258C6F06DF706DEE5F3B6F7CBA99 /* LWEncryptorExtensions.h */,
+				C09B831962A309BD46B78CAF0F171850 /* LWEncryptorExtensions.m */,
+				A43497BD8EBD1A79EA78620ED861EE4E /* LWRSAEncryptor.h */,
+				FE55FFD33359EFC6CD741EB251B21F57 /* LWRSAEncryptor.m */,
+				9D26DE432931251BAF523DD5C9371858 /* Pod */,
+				6D079DE5D42946952A1CFAD81BAC62A4 /* Support Files */,
+			);
+			name = LWEncryptor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		072E5FE381B009822085B625DFC8E113 /* Headers */ = {
+		B86EE4E83C8C2E61CC70EC991ABBA4A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C9B7F1092C3777F9E2360A5460DECD /* Pods-libLWEncryptor_Example-umbrella.h in Headers */,
+				CF01579103FB00A2154F6881B9842D19 /* LWAESEncryptor.h in Headers */,
+				F39A81DA36D7DB3C3ECA32C82DA345D3 /* LWEncryptor-umbrella.h in Headers */,
+				1E5A3F917B5B9BCAFCCAD6B59D142000 /* LWEncryptorExtensions.h in Headers */,
+				B04E581BA9922381D105625EC50CD36B /* LWRSAEncryptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCE0A152C6ED3E60108E7D1873307010 /* Headers */ = {
+		ECF36ACD10000A011F0EF457ABDD48A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF45B8EE7D7DFF83C801226E9126183 /* libLWEncryptor-umbrella.h in Headers */,
-				95F264C054A705226124A60446D27027 /* LWAESEncryptor.h in Headers */,
-				0A4C8118CA8A75ECA5CF37BDD3D83491 /* LWEncryptorExtensions.h in Headers */,
-				9A8683E5A5AD0F360AC80ED072D4818B /* LWRSAEncryptor.h in Headers */,
+				D2D3E9B84C522BD49E8BC1D5DD90C5AB /* Pods-LWEncryptor_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0817CE75441599A252AB578A7A2C7639 /* libLWEncryptor */ = {
+		4CC63F6952525D222F4F11E924B03504 /* LWEncryptor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73E023895DFA02CD4D350EE991AB6A07 /* Build configuration list for PBXNativeTarget "libLWEncryptor" */;
+			buildConfigurationList = EE8214D714D45A8C48D798D4B6E0AFA4 /* Build configuration list for PBXNativeTarget "LWEncryptor" */;
 			buildPhases = (
-				BCE0A152C6ED3E60108E7D1873307010 /* Headers */,
-				6830C7F7E14D2ABA6EBC3C7CC545018F /* Sources */,
-				F09AC570D60502843C577E0C14727B78 /* Frameworks */,
-				B093D29EAA4AACC1538DC54B9B99780F /* Resources */,
+				B86EE4E83C8C2E61CC70EC991ABBA4A8 /* Headers */,
+				E517EFEA37A28E09046571BB58D5E143 /* Sources */,
+				665CBE27FF4DD892367ABB53A00E8673 /* Frameworks */,
+				9FBA3C71225A2625433393922F6D841A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EDF7E632D39F3A932FE77585BBCE11E7 /* PBXTargetDependency */,
 			);
-			name = libLWEncryptor;
-			productName = libLWEncryptor;
-			productReference = 24C13D14CA2D25F72131EE6D10E4D829 /* libLWEncryptor.framework */;
+			name = LWEncryptor;
+			productName = LWEncryptor;
+			productReference = 0ABB4366C2F60A431EB4DE30CE0DA124 /* LWEncryptor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D7F4D7021E4EB27066DDAFD2F3E9AF84 /* Pods-libLWEncryptor_Example */ = {
+		E1E5C4BC6EEAD117A09E6FBA0DB7C978 /* Pods-LWEncryptor_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB631FD0C72799FD8531082E60E4F0FB /* Build configuration list for PBXNativeTarget "Pods-libLWEncryptor_Example" */;
+			buildConfigurationList = 44FB82EE50166B3A1726C33CD009B3A1 /* Build configuration list for PBXNativeTarget "Pods-LWEncryptor_Example" */;
 			buildPhases = (
-				072E5FE381B009822085B625DFC8E113 /* Headers */,
-				2677558855B358CFF29B8D8CF64FC49B /* Sources */,
-				AFA75E633DFC54C4B188D72581960C68 /* Frameworks */,
-				2AC7873E9E2C307ED3B644986DEED7C1 /* Resources */,
+				ECF36ACD10000A011F0EF457ABDD48A8 /* Headers */,
+				37BA7026D2D348383057508132B8E199 /* Sources */,
+				D1FF23E0AF6FD9A2F62F2BE0CCBCEE95 /* Frameworks */,
+				5DB1680185FDAC1D0EBF35BA36D684B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4C6606E2991A2705E764DAE7301F3FB1 /* PBXTargetDependency */,
+				B6483121862650C41CF8225CD7896EE6 /* PBXTargetDependency */,
+				645B66375F69DEE16731A54BDFF26A7E /* PBXTargetDependency */,
 			);
-			name = "Pods-libLWEncryptor_Example";
-			productName = "Pods-libLWEncryptor_Example";
-			productReference = B44A6E9C21EE860770B766CFC2419EA2 /* Pods_libLWEncryptor_Example.framework */;
+			name = "Pods-LWEncryptor_Example";
+			productName = "Pods-LWEncryptor_Example";
+			productReference = 9918A3A7E4D25CF29E714FD93A134126 /* Pods_LWEncryptor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -438,36 +495,38 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4B0BA11A6ECF73713523DF571EFDAB9D /* Products */;
+			productRefGroup = B54B7042C7EEA2DE0D6AF569EC58E946 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0817CE75441599A252AB578A7A2C7639 /* libLWEncryptor */,
-				D7F4D7021E4EB27066DDAFD2F3E9AF84 /* Pods-libLWEncryptor_Example */,
+				4CC63F6952525D222F4F11E924B03504 /* LWEncryptor */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
+				E1E5C4BC6EEAD117A09E6FBA0DB7C978 /* Pods-LWEncryptor_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AC7873E9E2C307ED3B644986DEED7C1 /* Resources */ = {
+		5DB1680185FDAC1D0EBF35BA36D684B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B093D29EAA4AACC1538DC54B9B99780F /* Resources */ = {
+		9FBA3C71225A2625433393922F6D841A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -477,135 +536,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2677558855B358CFF29B8D8CF64FC49B /* Sources */ = {
+		37BA7026D2D348383057508132B8E199 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EDEFC2E38C1A7A73A2CE32A3CAE50BB /* Pods-libLWEncryptor_Example-dummy.m in Sources */,
+				D71449D4952BE207B1DA81D5549B6634 /* Pods-LWEncryptor_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6830C7F7E14D2ABA6EBC3C7CC545018F /* Sources */ = {
+		E517EFEA37A28E09046571BB58D5E143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F9F00CED6CF88290D6ABBDA0D79588 /* libLWEncryptor-dummy.m in Sources */,
-				D221175697D4561FF36B863D365336E3 /* LWAESEncryptor.m in Sources */,
-				EBACBF7978A70BF5A65201BA49F85D38 /* LWEncryptorExtensions.m in Sources */,
-				0DA8DB7462065B3C38253D2A57ADB019 /* LWRSAEncryptor.m in Sources */,
+				AE5C11D9E5FD8E988A197236DD15E82B /* LWAESEncryptor.m in Sources */,
+				12FEE1E379173F7A81F9FB8B765EF7AF /* LWEncryptor-dummy.m in Sources */,
+				19301F41BAA35AA9C90F98A7F4665290 /* LWEncryptorExtensions.m in Sources */,
+				067BAAC45FA23F270DB706E6EAD43CEF /* LWRSAEncryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C6606E2991A2705E764DAE7301F3FB1 /* PBXTargetDependency */ = {
+		645B66375F69DEE16731A54BDFF26A7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = libLWEncryptor;
-			target = 0817CE75441599A252AB578A7A2C7639 /* libLWEncryptor */;
-			targetProxy = 964514A57E743733F95AAC1368852BEC /* PBXContainerItemProxy */;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = B4AF2FB9681EBD5866A5553ED867CEF2 /* PBXContainerItemProxy */;
+		};
+		B6483121862650C41CF8225CD7896EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWEncryptor;
+			target = 4CC63F6952525D222F4F11E924B03504 /* LWEncryptor */;
+			targetProxy = F855849018A2DADC8E8AD165C75F6871 /* PBXContainerItemProxy */;
+		};
+		EDF7E632D39F3A932FE77585BBCE11E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = B249A9F91514C00DCA1B2D23452EDFD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09E7245CFC830D0C3E2361C756558BD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E27385A6DF2A7CAA5397DA5C3411758 /* Pods-libLWEncryptor_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libLWEncryptor_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libLWEncryptor_Example/Pods-libLWEncryptor_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0A2419AC26371E9E4AB7FD6018C0B479 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E079A0C97BF07BDDE110CB2F846B2EA7 /* libLWEncryptor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libLWEncryptor/libLWEncryptor-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/libLWEncryptor/libLWEncryptor.modulemap";
-				PRODUCT_MODULE_NAME = libLWEncryptor;
-				PRODUCT_NAME = libLWEncryptor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34777E57A1681B074716AB20EB9BD0F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22F7DD6DD660D072066C106DA4540055 /* Pods-libLWEncryptor_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libLWEncryptor_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libLWEncryptor_Example/Pods-libLWEncryptor_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -637,8 +611,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -662,43 +634,12 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8DDDE040E9896F2138EC6D255DFFB757 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E079A0C97BF07BDDE110CB2F846B2EA7 /* libLWEncryptor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libLWEncryptor/libLWEncryptor-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/libLWEncryptor/libLWEncryptor.modulemap";
-				PRODUCT_MODULE_NAME = libLWEncryptor;
-				PRODUCT_NAME = libLWEncryptor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -730,8 +671,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -759,37 +698,203 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		8546E5C7E4D552282A89899173FA8AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFC905481A180FF894130A4425D8460 /* OpenSSL-Universal.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A27CE34D7E4A68EB853964FC3405D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F905010CEB99964876A957395FCCAE65 /* Pods-LWEncryptor_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWEncryptor_Example/Pods-LWEncryptor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWEncryptor_Example/Pods-LWEncryptor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D26E5B2577392725842DB737E44FCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFC905481A180FF894130A4425D8460 /* OpenSSL-Universal.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA02FFE105AAEA7ADC332D2CCBCA4305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4226B2FDE80FEA2EBDB47B42B1E03B /* LWEncryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWEncryptor/LWEncryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWEncryptor/LWEncryptor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/LWEncryptor/LWEncryptor.modulemap";
+				PRODUCT_MODULE_NAME = LWEncryptor;
+				PRODUCT_NAME = LWEncryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D85DD729288A421737B8800D56C41088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4226B2FDE80FEA2EBDB47B42B1E03B /* LWEncryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWEncryptor/LWEncryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWEncryptor/LWEncryptor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/LWEncryptor/LWEncryptor.modulemap";
+				PRODUCT_MODULE_NAME = LWEncryptor;
+				PRODUCT_NAME = LWEncryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFDD2A1085E0260D768E3CF77805D5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594F0A3DDCF60ECF522CF8B381F7F053 /* Pods-LWEncryptor_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWEncryptor_Example/Pods-LWEncryptor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWEncryptor_Example/Pods-LWEncryptor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01B5D90BD06798604F22A44E32E8F39B /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D26E5B2577392725842DB737E44FCF2 /* Debug */,
+				8546E5C7E4D552282A89899173FA8AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FB82EE50166B3A1726C33CD009B3A1 /* Build configuration list for PBXNativeTarget "Pods-LWEncryptor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A27CE34D7E4A68EB853964FC3405D9A /* Debug */,
+				EFDD2A1085E0260D768E3CF77805D5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B64E2C722A3EAD054D380F489370F012 /* Debug */,
-				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73E023895DFA02CD4D350EE991AB6A07 /* Build configuration list for PBXNativeTarget "libLWEncryptor" */ = {
+		EE8214D714D45A8C48D798D4B6E0AFA4 /* Build configuration list for PBXNativeTarget "LWEncryptor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A2419AC26371E9E4AB7FD6018C0B479 /* Debug */,
-				8DDDE040E9896F2138EC6D255DFFB757 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB631FD0C72799FD8531082E60E4F0FB /* Build configuration list for PBXNativeTarget "Pods-libLWEncryptor_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				09E7245CFC830D0C3E2361C756558BD2 /* Debug */,
-				34777E57A1681B074716AB20EB9BD0F5 /* Release */,
+				D85DD729288A421737B8800D56C41088 /* Debug */,
+				BA02FFE105AAEA7ADC332D2CCBCA4305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
