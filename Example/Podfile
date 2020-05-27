@@ -5,6 +5,8 @@ platform :ios, '8.0'
 target 'LWEncryptor_Example' do
   pod 'LWEncryptor', :path => '../'
 
+  pod 'OpenSSL-Universal'
+
   # target 'LWEncryptor_Tests' do
   #   inherit! :search_paths
   #
