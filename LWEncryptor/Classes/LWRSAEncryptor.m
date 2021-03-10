@@ -7,9 +7,9 @@
 //
 
 #import "LWRSAEncryptor.h"
-#import <OpenSSL-Universal/openssl/rsa.h>
-#import <OpenSSL-Universal/openssl/sha.h>
-#import <OpenSSL-Universal/openssl/pem.h>
+#import "rsa.h"
+#import "sha.h"
+#import "pem.h"
 
 
 static LWRSAEncryptor *sharedEncryptor = nil;

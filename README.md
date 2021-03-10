@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWEncryptor'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWEncryptor"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com
