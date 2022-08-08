@@ -9,6 +9,30 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objective-C
+@interface LWAESEncryptor : NSObject
++ (instancetype)sharedInstance;
+- (NSData *)encrypt:(NSData *)data key:(NSData *)key iv:(NSString *)iv;
+- (NSData *)decrypt:(NSData *)data key:(NSData *)key iv:(NSString *)iv;
+- (NSData *)decryptString:(NSString *)str key:(NSString *)key iv:(NSString *)iv;
+- (NSData *)decryptBase64String:(NSString *)str key:(NSString *)key iv:(NSString *)iv;
+- (NSData *)encryptBase64String:(NSString *)str key:(NSString *)key iv:(NSString *)iv;
+@end
+
+
+@interface NSString (MD5)
+- (NSString*)md5;
+@end
+
+@interface NSData(Digest)
+- (NSString*)md5String;
+- (NSData*)md5;
+- (NSData*)sha1;
+- (NSString*)hex;
+@end
+
+```
+
 ## Requirements
 
 ## Installation
