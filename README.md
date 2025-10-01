@@ -5,7 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/LWEncryptor.svg?style=flat)](https://cocoapods.org/pods/LWEncryptor)
 [![Platform](https://img.shields.io/cocoapods/p/LWEncryptor.svg?style=flat)](https://cocoapods.org/pods/LWEncryptor)
 
-[中文文档](README_ZH.md)
+**[English](./README.md)** | **[中文版](./README_ZH.md)**
+
+---
+
+## Overview
 
 LWEncryptor is a comprehensive encryption library for iOS that provides easy-to-use interfaces for AES encryption/decryption, RSA encryption/decryption/signing, and cryptographic hash functions (MD5, SHA1). Built on top of OpenSSL, it offers robust security features with a simple Objective-C API.
 
