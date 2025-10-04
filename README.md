@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/LWEncryptor.svg?style=flat)](https://cocoapods.org/pods/LWEncryptor)
 [![Platform](https://img.shields.io/cocoapods/p/LWEncryptor.svg?style=flat)](https://cocoapods.org/pods/LWEncryptor)
 
-**[English](./README.md)** | **[中文版](./README_ZH.md)**
+**[English](./README.md)** | **[中文版](./README_ZH.md)** | **[Swift Version](./README_SWIFT_VERSION.md)**
 
 ---
 
