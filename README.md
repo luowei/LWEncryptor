@@ -1,5 +1,12 @@
 # LWEncryptor
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWEncryptor/
+- Report: https://luowei.github.io/LWEncryptor/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWEncryptor/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWEncryptor.svg?style=flat)](https://travis-ci.org/luowei/LWEncryptor)
 [![Version](https://img.shields.io/cocoapods/v/LWEncryptor.svg?style=flat)](https://cocoapods.org/pods/LWEncryptor)
 [![License](https://img.shields.io/cocoapods/l/LWEncryptor.svg?style=flat)](https://cocoapods.org/pods/LWEncryptor)
