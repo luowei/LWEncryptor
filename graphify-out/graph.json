@@ -1,0 +1,1937 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Tests.m",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L1",
+      "id": "example_tests_tests_m",
+      "community": 5,
+      "norm_label": "tests.m"
+    },
+    {
+      "label": "Tests",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "id": "tests_tests_tests",
+      "community": 5,
+      "norm_label": "tests"
+    },
+    {
+      "label": "-setUp",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "id": "tests_tests_tests_setup",
+      "community": 5,
+      "norm_label": "-setup"
+    },
+    {
+      "label": "-tearDown",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L22",
+      "id": "tests_tests_tests_teardown",
+      "community": 5,
+      "norm_label": "-teardown"
+    },
+    {
+      "label": "-testExample",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L27",
+      "id": "tests_tests_tests_testexample",
+      "community": 5,
+      "norm_label": "-testexample"
+    },
+    {
+      "label": "LWViewController.h",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWViewController.h",
+      "source_location": "L1",
+      "id": "example_lwencryptor_lwviewcontroller_h",
+      "community": 7,
+      "norm_label": "lwviewcontroller.h"
+    },
+    {
+      "label": "LWAppDelegate.h",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.h",
+      "source_location": "L1",
+      "id": "example_lwencryptor_lwappdelegate_h",
+      "community": 8,
+      "norm_label": "lwappdelegate.h"
+    },
+    {
+      "label": "main.m",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/main.m",
+      "source_location": "L1",
+      "id": "example_lwencryptor_main_m",
+      "community": 9,
+      "norm_label": "main.m"
+    },
+    {
+      "label": "LWAppDelegate.m",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L1",
+      "id": "example_lwencryptor_lwappdelegate_m",
+      "community": 3,
+      "norm_label": "lwappdelegate.m"
+    },
+    {
+      "label": "LWAppDelegate",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L11",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate",
+      "community": 3,
+      "norm_label": "lwappdelegate"
+    },
+    {
+      "label": "-applicationdidFinishLaunchingWithOptions",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L13",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "community": 3,
+      "norm_label": "-applicationdidfinishlaunchingwithoptions"
+    },
+    {
+      "label": "-applicationWillResignActive",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L18",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "community": 3,
+      "norm_label": "-applicationwillresignactive"
+    },
+    {
+      "label": "-applicationDidEnterBackground",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L23",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "community": 3,
+      "norm_label": "-applicationdidenterbackground"
+    },
+    {
+      "label": "-applicationWillEnterForeground",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L28",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "community": 3,
+      "norm_label": "-applicationwillenterforeground"
+    },
+    {
+      "label": "-applicationDidBecomeActive",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L32",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "community": 3,
+      "norm_label": "-applicationdidbecomeactive"
+    },
+    {
+      "label": "-applicationWillTerminate",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L36",
+      "id": "lwencryptor_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "community": 3,
+      "norm_label": "-applicationwillterminate"
+    },
+    {
+      "label": "LWViewController.m",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L1",
+      "id": "example_lwencryptor_lwviewcontroller_m",
+      "community": 6,
+      "norm_label": "lwviewcontroller.m"
+    },
+    {
+      "label": "LWViewController",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L11",
+      "id": "lwencryptor_lwviewcontroller_lwviewcontroller",
+      "community": 6,
+      "norm_label": "lwviewcontroller"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L17",
+      "id": "lwencryptor_lwviewcontroller_lwviewcontroller_viewdidload",
+      "community": 6,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-didReceiveMemoryWarning",
+      "file_type": "code",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L22",
+      "id": "lwencryptor_lwviewcontroller_lwviewcontroller_didreceivememorywarning",
+      "community": 6,
+      "norm_label": "-didreceivememorywarning"
+    },
+    {
+      "label": "LWEncryptorExtensions.m",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L1",
+      "id": "lwencryptor_classes_lwencryptorextensions_m",
+      "community": 4,
+      "norm_label": "lwencryptorextensions.m"
+    },
+    {
+      "label": "NSString",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L8",
+      "id": "classes_lwencryptorextensions_nsstring",
+      "community": 4,
+      "norm_label": "nsstring"
+    },
+    {
+      "label": "-md5",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L10",
+      "id": "classes_lwencryptorextensions_nsstring_md5",
+      "community": 4,
+      "norm_label": "-md5"
+    },
+    {
+      "label": "NSData",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L17",
+      "id": "classes_lwencryptorextensions_nsdata",
+      "community": 4,
+      "norm_label": "nsdata"
+    },
+    {
+      "label": "-md5",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L19",
+      "id": "classes_lwencryptorextensions_nsdata_md5",
+      "community": 4,
+      "norm_label": "-md5"
+    },
+    {
+      "label": "-md5String",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L29",
+      "id": "classes_lwencryptorextensions_nsdata_md5string",
+      "community": 4,
+      "norm_label": "-md5string"
+    },
+    {
+      "label": "-sha1",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L33",
+      "id": "classes_lwencryptorextensions_nsdata_sha1",
+      "community": 4,
+      "norm_label": "-sha1"
+    },
+    {
+      "label": "-hex",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L43",
+      "id": "classes_lwencryptorextensions_nsdata_hex",
+      "community": 4,
+      "norm_label": "-hex"
+    },
+    {
+      "label": "LWAESEncryptor.m",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L1",
+      "id": "lwencryptor_classes_lwaesencryptor_m",
+      "community": 1,
+      "norm_label": "lwaesencryptor.m"
+    },
+    {
+      "label": "LWAESEncryptor",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L13",
+      "id": "classes_lwaesencryptor_lwaesencryptor",
+      "community": 1,
+      "norm_label": "lwaesencryptor"
+    },
+    {
+      "label": "-sharedInstance",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L27",
+      "id": "classes_lwaesencryptor_lwaesencryptor_sharedinstance",
+      "community": 1,
+      "norm_label": "-sharedinstance"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L25",
+      "id": "classes_lwaesencryptor_lwaesencryptor_init",
+      "community": 1,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "-encryptkeyiv",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L43",
+      "id": "classes_lwaesencryptor_lwaesencryptor_encryptkeyiv",
+      "community": 1,
+      "norm_label": "-encryptkeyiv"
+    },
+    {
+      "label": "-decryptkeyiv",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L47",
+      "id": "classes_lwaesencryptor_lwaesencryptor_decryptkeyiv",
+      "community": 1,
+      "norm_label": "-decryptkeyiv"
+    },
+    {
+      "label": "-decryptStringkeyiv",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L51",
+      "id": "classes_lwaesencryptor_lwaesencryptor_decryptstringkeyiv",
+      "community": 1,
+      "norm_label": "-decryptstringkeyiv"
+    },
+    {
+      "label": "-decryptBase64Stringkeyiv",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L55",
+      "id": "classes_lwaesencryptor_lwaesencryptor_decryptbase64stringkeyiv",
+      "community": 1,
+      "norm_label": "-decryptbase64stringkeyiv"
+    },
+    {
+      "label": "-encryptBase64Stringkeyiv",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L63",
+      "id": "classes_lwaesencryptor_lwaesencryptor_encryptbase64stringkeyiv",
+      "community": 1,
+      "norm_label": "-encryptbase64stringkeyiv"
+    },
+    {
+      "label": "-doCiphercontextwithBinaryKeyiv",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L71",
+      "id": "classes_lwaesencryptor_lwaesencryptor_dociphercontextwithbinarykeyiv",
+      "community": 1,
+      "norm_label": "-dociphercontextwithbinarykeyiv"
+    },
+    {
+      "label": "LWRSAEncryptor.h",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.h",
+      "source_location": "L1",
+      "id": "lwencryptor_classes_lwrsaencryptor_h",
+      "community": 10,
+      "norm_label": "lwrsaencryptor.h"
+    },
+    {
+      "label": "LWAESEncryptor.h",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.h",
+      "source_location": "L1",
+      "id": "lwencryptor_classes_lwaesencryptor_h",
+      "community": 11,
+      "norm_label": "lwaesencryptor.h"
+    },
+    {
+      "label": "LWEncryptorExtensions.h",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.h",
+      "source_location": "L1",
+      "id": "lwencryptor_classes_lwencryptorextensions_h",
+      "community": 12,
+      "norm_label": "lwencryptorextensions.h"
+    },
+    {
+      "label": "LWRSAEncryptor.m",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L1",
+      "id": "lwencryptor_classes_lwrsaencryptor_m",
+      "community": 0,
+      "norm_label": "lwrsaencryptor.m"
+    },
+    {
+      "label": "LWRSAEncryptor",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L13",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor",
+      "community": 0,
+      "norm_label": "lwrsaencryptor"
+    },
+    {
+      "label": "-defaultEncryptor",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L30",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_defaultencryptor",
+      "community": 0,
+      "norm_label": "-defaultencryptor"
+    },
+    {
+      "label": "-defaultEncryptorWith",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L39",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_defaultencryptorwith",
+      "community": 0,
+      "norm_label": "-defaultencryptorwith"
+    },
+    {
+      "label": "-encrytorWithPublicKeyprivateKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L43",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encrytorwithpublickeyprivatekey",
+      "community": 0,
+      "norm_label": "-encrytorwithpublickeyprivatekey"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L27",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "-initWithPadding",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L55",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_initwithpadding",
+      "community": 0,
+      "norm_label": "-initwithpadding"
+    },
+    {
+      "label": "-initWithPublicKeyprivateKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L65",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_initwithpublickeyprivatekey",
+      "community": 0,
+      "norm_label": "-initwithpublickeyprivatekey"
+    },
+    {
+      "label": "-publicKeyValue",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L77",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_publickeyvalue",
+      "community": 0,
+      "norm_label": "-publickeyvalue"
+    },
+    {
+      "label": "-privateKeyValue",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L86",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_privatekeyvalue",
+      "community": 0,
+      "norm_label": "-privatekeyvalue"
+    },
+    {
+      "label": "-formatToPEMisPublicKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L95",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_formattopemispublickey",
+      "community": 0,
+      "norm_label": "-formattopemispublickey"
+    },
+    {
+      "label": "-encryptByPublicKeyWithString",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L119",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickeywithstring",
+      "community": 0,
+      "norm_label": "-encryptbypublickeywithstring"
+    },
+    {
+      "label": "-encryptByPublicKeyWithData",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L122",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickeywithdata",
+      "community": 0,
+      "norm_label": "-encryptbypublickeywithdata"
+    },
+    {
+      "label": "-encryptStringpublicKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L126",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptstringpublickey",
+      "community": 0,
+      "norm_label": "-encryptstringpublickey"
+    },
+    {
+      "label": "-encryptDatapublicKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L131",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptdatapublickey",
+      "community": 0,
+      "norm_label": "-encryptdatapublickey"
+    },
+    {
+      "label": "-encryptDataWithPublicKeyRSA",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L136",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptdatawithpublickeyrsa",
+      "community": 0,
+      "norm_label": "-encryptdatawithpublickeyrsa"
+    },
+    {
+      "label": "-decryptDatapublicKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L150",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptdatapublickey",
+      "community": 0,
+      "norm_label": "-decryptdatapublickey"
+    },
+    {
+      "label": "-decryptDatarsa",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L155",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptdatarsa",
+      "community": 0,
+      "norm_label": "-decryptdatarsa"
+    },
+    {
+      "label": "-signString",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L171",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_signstring",
+      "community": 0,
+      "norm_label": "-signstring"
+    },
+    {
+      "label": "-signData",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L184",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_signdata",
+      "community": 0,
+      "norm_label": "-signdata"
+    },
+    {
+      "label": "-signDataForDataprivateKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L188",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_signdatafordataprivatekey",
+      "community": 0,
+      "norm_label": "-signdatafordataprivatekey"
+    },
+    {
+      "label": "-signDatawithRSA",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L193",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_signdatawithrsa",
+      "community": 0,
+      "norm_label": "-signdatawithrsa"
+    },
+    {
+      "label": "-decryptByPrivateKeyWithEncryptString",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L218",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekeywithencryptstring",
+      "community": 0,
+      "norm_label": "-decryptbyprivatekeywithencryptstring"
+    },
+    {
+      "label": "-decryptByPrivateKeyWithEncryptData",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L222",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekeywithencryptdata",
+      "community": 0,
+      "norm_label": "-decryptbyprivatekeywithencryptdata"
+    },
+    {
+      "label": "-decryptStringForDataprivateKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L226",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptstringfordataprivatekey",
+      "community": 0,
+      "norm_label": "-decryptstringfordataprivatekey"
+    },
+    {
+      "label": "-decryptDataForDataprivateKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L231",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptdatafordataprivatekey",
+      "community": 0,
+      "norm_label": "-decryptdatafordataprivatekey"
+    },
+    {
+      "label": "-decryptEncryptDatawithRSA",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L236",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptencryptdatawithrsa",
+      "community": 0,
+      "norm_label": "-decryptencryptdatawithrsa"
+    },
+    {
+      "label": "-verifyStringwithSign",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L251",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verifystringwithsign",
+      "community": 0,
+      "norm_label": "-verifystringwithsign"
+    },
+    {
+      "label": "-verifyDatasignature",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L254",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verifydatasignature",
+      "community": 0,
+      "norm_label": "-verifydatasignature"
+    },
+    {
+      "label": "-verifyStringsignStringpublicKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L259",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verifystringsignstringpublickey",
+      "community": 0,
+      "norm_label": "-verifystringsignstringpublickey"
+    },
+    {
+      "label": "-verifyDatasignaturepublicKey",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L262",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verifydatasignaturepublickey",
+      "community": 0,
+      "norm_label": "-verifydatasignaturepublickey"
+    },
+    {
+      "label": "-verifyDatasignaturersa",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L267",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verifydatasignaturersa",
+      "community": 0,
+      "norm_label": "-verifydatasignaturersa"
+    },
+    {
+      "label": "-verifySourceStringwithSignrsa",
+      "file_type": "code",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L278",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verifysourcestringwithsignrsa",
+      "community": 0,
+      "norm_label": "-verifysourcestringwithsignrsa"
+    },
+    {
+      "label": "LWRSAEncryptor.swift",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L1",
+      "id": "lwencryptor_swift_classes_lwrsaencryptor_swift",
+      "community": 0,
+      "norm_label": "lwrsaencryptor.swift"
+    },
+    {
+      "label": ".encryptByPublicKey()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L48",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickey",
+      "community": 2,
+      "norm_label": ".encryptbypublickey()"
+    },
+    {
+      "label": ".encrypt()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L70",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encrypt",
+      "community": 2,
+      "norm_label": ".encrypt()"
+    },
+    {
+      "label": ".decrypt()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L97",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decrypt",
+      "community": 2,
+      "norm_label": ".decrypt()"
+    },
+    {
+      "label": ".decryptByPrivateKey()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L109",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekey",
+      "community": 2,
+      "norm_label": ".decryptbyprivatekey()"
+    },
+    {
+      "label": ".sign()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L156",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_sign",
+      "community": 2,
+      "norm_label": ".sign()"
+    },
+    {
+      "label": ".verify()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L193",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_verify",
+      "community": 2,
+      "norm_label": ".verify()"
+    },
+    {
+      "label": ".encryptInChunks()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L266",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_encryptinchunks",
+      "community": 2,
+      "norm_label": ".encryptinchunks()"
+    },
+    {
+      "label": ".createPublicKey()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L342",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "community": 2,
+      "norm_label": ".createpublickey()"
+    },
+    {
+      "label": ".createPrivateKey()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L361",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_createprivatekey",
+      "community": 2,
+      "norm_label": ".createprivatekey()"
+    },
+    {
+      "label": ".formatToPEM()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L380",
+      "id": "classes_lwrsaencryptor_lwrsaencryptor_formattopem",
+      "community": 2,
+      "norm_label": ".formattopem()"
+    },
+    {
+      "label": "LWEncryptorExtensions.swift",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L1",
+      "id": "lwencryptor_swift_classes_lwencryptorextensions_swift",
+      "community": 2,
+      "norm_label": "lwencryptorextensions.swift"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L14",
+      "id": "classes_lwencryptorextensions_string",
+      "community": 2,
+      "norm_label": "string"
+    },
+    {
+      "label": "Data",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L28",
+      "id": "classes_lwencryptorextensions_data",
+      "community": 2,
+      "norm_label": "data"
+    },
+    {
+      "label": ".md5()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L32",
+      "id": "classes_lwencryptorextensions_data_md5",
+      "community": 2,
+      "norm_label": ".md5()"
+    },
+    {
+      "label": ".sha1()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L56",
+      "id": "classes_lwencryptorextensions_data_sha1",
+      "community": 2,
+      "norm_label": ".sha1()"
+    },
+    {
+      "label": "LWAESEncryptor.swift",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L1",
+      "id": "lwencryptor_swift_classes_lwaesencryptor_swift",
+      "community": 1,
+      "norm_label": "lwaesencryptor.swift"
+    },
+    {
+      "label": ".encrypt()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L37",
+      "id": "classes_lwaesencryptor_lwaesencryptor_encrypt",
+      "community": 1,
+      "norm_label": ".encrypt()"
+    },
+    {
+      "label": ".decrypt()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L47",
+      "id": "classes_lwaesencryptor_lwaesencryptor_decrypt",
+      "community": 1,
+      "norm_label": ".decrypt()"
+    },
+    {
+      "label": ".decryptBase64String()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L71",
+      "id": "classes_lwaesencryptor_lwaesencryptor_decryptbase64string",
+      "community": 1,
+      "norm_label": ".decryptbase64string()"
+    },
+    {
+      "label": ".encryptBase64String()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L85",
+      "id": "classes_lwaesencryptor_lwaesencryptor_encryptbase64string",
+      "community": 1,
+      "norm_label": ".encryptbase64string()"
+    },
+    {
+      "label": ".doCipher()",
+      "file_type": "code",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L95",
+      "id": "classes_lwaesencryptor_lwaesencryptor_docipher",
+      "community": 1,
+      "norm_label": ".docipher()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_tests_tests_m",
+      "target": "tests_tests_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_teardown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_testexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwencryptor_lwappdelegate_m",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwencryptor_lwappdelegate_lwappdelegate",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lwencryptor_lwappdelegate_lwappdelegate",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "lwencryptor_lwappdelegate_lwappdelegate",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "lwencryptor_lwappdelegate_lwappdelegate",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "lwencryptor_lwappdelegate_lwappdelegate",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWAppDelegate.m",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "lwencryptor_lwappdelegate_lwappdelegate",
+      "target": "lwencryptor_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwencryptor_lwviewcontroller_m",
+      "target": "lwencryptor_lwviewcontroller_lwviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwencryptor_lwviewcontroller_lwviewcontroller",
+      "target": "lwencryptor_lwviewcontroller_lwviewcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWEncryptor/LWViewController.m",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "lwencryptor_lwviewcontroller_lwviewcontroller",
+      "target": "lwencryptor_lwviewcontroller_lwviewcontroller_didreceivememorywarning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "lwencryptor_classes_lwencryptorextensions_m",
+      "target": "classes_lwencryptorextensions_nsstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwencryptor_classes_lwencryptorextensions_m",
+      "target": "classes_lwencryptorextensions_nsdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "classes_lwencryptorextensions_nsstring",
+      "target": "classes_lwencryptorextensions_nsstring_md5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "classes_lwencryptorextensions_nsdata",
+      "target": "classes_lwencryptorextensions_nsdata_md5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "classes_lwencryptorextensions_nsdata",
+      "target": "classes_lwencryptorextensions_nsdata_md5string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "classes_lwencryptorextensions_nsdata",
+      "target": "classes_lwencryptorextensions_nsdata_sha1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWEncryptorExtensions.m",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "classes_lwencryptorextensions_nsdata",
+      "target": "classes_lwencryptorextensions_nsdata_hex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwencryptor_classes_lwaesencryptor_m",
+      "target": "classes_lwaesencryptor_lwaesencryptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_sharedinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_encryptkeyiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_decryptkeyiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_decryptstringkeyiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_decryptbase64stringkeyiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_encryptbase64stringkeyiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWAESEncryptor.m",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_dociphercontextwithbinarykeyiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwencryptor_swift_classes_lwaesencryptor_swift",
+      "target": "classes_lwaesencryptor_lwaesencryptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_encrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_decrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_decryptbase64string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_encryptbase64string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor",
+      "target": "classes_lwaesencryptor_lwaesencryptor_docipher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lwencryptor_classes_lwrsaencryptor_m",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_defaultencryptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_defaultencryptorwith",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encrytorwithpublickeyprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_initwithpadding",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_initwithpublickeyprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_publickeyvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_privatekeyvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_formattopemispublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickeywithstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickeywithdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptstringpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptdatapublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptdatawithpublickeyrsa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptdatapublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptdatarsa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_signstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_signdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_signdatafordataprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_signdatawithrsa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekeywithencryptstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekeywithencryptdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptstringfordataprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptdatafordataprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptencryptdatawithrsa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verifystringwithsign",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L254",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verifydatasignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verifystringsignstringpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L262",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verifydatasignaturepublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verifydatasignaturersa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor/Classes/LWRSAEncryptor.m",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verifysourcestringwithsignrsa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwencryptor_swift_classes_lwrsaencryptor_swift",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L305",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_sign",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L323",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_verify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptinchunks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L342",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L361",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L380",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_formattopem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_init",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_init",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_encryptbypublickey",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_encrypt",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_encrypt",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_encryptinchunks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_decrypt",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_decryptbyprivatekey",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_decrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_decrypt",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_sign",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createprivatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_verify",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_verify",
+      "target": "classes_lwencryptorextensions_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_encryptinchunks",
+      "target": "classes_lwencryptorextensions_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_createpublickey",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_formattopem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L362",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_createprivatekey",
+      "target": "classes_lwrsaencryptor_lwrsaencryptor_formattopem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWEncryptor_swift/Classes/LWRSAEncryptor.swift",
+      "source_location": "L389",
+      "weight": 1.0,
+      "source": "classes_lwrsaencryptor_lwrsaencryptor_formattopem",
+      "target": "classes_lwencryptorextensions_string"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "lwencryptor_swift_classes_lwencryptorextensions_swift",
+      "target": "classes_lwencryptorextensions_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "lwencryptor_swift_classes_lwencryptorextensions_swift",
+      "target": "classes_lwencryptorextensions_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "call",
+      "source": "classes_lwencryptorextensions_data_md5",
+      "target": "classes_lwencryptorextensions_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWEncryptorExtensions.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "call",
+      "source": "classes_lwencryptorextensions_data_sha1",
+      "target": "classes_lwencryptorextensions_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor_decryptbase64string",
+      "target": "classes_lwencryptorextensions_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor_docipher",
+      "target": "classes_lwencryptorextensions_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor_encrypt",
+      "target": "classes_lwaesencryptor_lwaesencryptor_docipher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor_encryptbase64string",
+      "target": "classes_lwaesencryptor_lwaesencryptor_encrypt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor_decrypt",
+      "target": "classes_lwaesencryptor_lwaesencryptor_docipher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWEncryptor_swift/Classes/LWAESEncryptor.swift",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "classes_lwaesencryptor_lwaesencryptor_decryptbase64string",
+      "target": "classes_lwaesencryptor_lwaesencryptor_decrypt",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
